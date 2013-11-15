@@ -1,7 +1,23 @@
 <html>
 <head>
+<script type="application/javascript">
+function list(arg)
+{
+   window.onload=function()
+   {  
+      list=document.getElementById("list")
+      arg["data"].forEach(function(arg){ 
+        list.innerHTML+="<li>"+arg["name"]+"</li>";
+      })
+   }
+}
+</script>
+<script type="application/javascript"
+        src="https://api.github.com/users/cultureulterior/repos?callback=list">
+</script>
 </head>
 <body>
-Boots
+<ul id="list">
+</ul>
 </body>
 </html>
