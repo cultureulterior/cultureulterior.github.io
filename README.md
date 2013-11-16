@@ -1,4 +1,4 @@
-cultureulterior.github.io
+Clone this repository to get an index for your github.io
 =========================
 
-Root repo I suppose
+(Remember to change your user name)
