@@ -7,7 +7,7 @@ function list(arg)
    {  
       list=document.getElementById("list")
       arg["data"].forEach(function(arg){ 
-        list.innerHTML+="<li>"+arg["name"]+"</li>";
+        list.innerHTML+='<li><a href="'+arg["name"]+'/">'+arg["name"]+'</a></li>';
       })
    }
 }
