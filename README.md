@@ -1,4 +1,4 @@
-Clone this repository to get an index for your github.io
+Clone & rename this repository to get an index for your <username>.github.io
 =========================
 
-(Remember to change your user name)
+(Remember to change your github username on line 88)
